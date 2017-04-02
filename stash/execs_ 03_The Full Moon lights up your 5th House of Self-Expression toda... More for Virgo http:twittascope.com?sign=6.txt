@@ -1,0 +1,27 @@
+(lp1
+(lp2
+(lp3
+S'03'
+p4
+aS''
+a(lp5
+(lp6
+S'SyntacticTextFeature'
+p7
+aS'031010101020'
+p8
+aS'1'
+aaaS'Stanford NER'
+p9
+aS'Entity Recognition'
+p10
+aS'Conditional Random Field Local-Only Model'
+p11
+aS'Viterbi Inference'
+p12
+aS'CoNLL, MUC-6, MUC-7, ACE'
+p13
+a(lp14
+aS'NoEnsemble'
+p15
+aaa.
