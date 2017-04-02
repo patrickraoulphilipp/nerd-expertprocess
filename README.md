@@ -11,5 +11,6 @@ NERD Expert Process
 
 Instricutions:
 -------------
- * Download wvlip
- * Call ep.py with parameters no. training samples, no. test samples, budget NER pre, budget NER post, budget NED pre, Microposts || Spotlight
+ * Download wvlib
+ * Create folder "stash" in main dir
+ * Call ep.py with parameters embedding file (.bin), no. training samples, no. test samples, budget NER pre, budget NER post, budget NED pre, Microposts || Spotlight
