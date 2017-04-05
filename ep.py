@@ -1,9 +1,5 @@
 from __future__ import print_function
-from rdflib.graph import Graph
-from nltk.util import ngrams
-from nltk.corpus import stopwords
 from SPARQLWrapper import SPARQLWrapper, JSON
-from difflib import SequenceMatcher
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.tree import DecisionTreeRegressor
@@ -30,7 +26,6 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import zero_one_loss
 from sklearn.cluster import DBSCAN
 from sklearn import metrics
-from textblob import TextBlob
 from ep_util import *
 import os, shutil
 import ast
@@ -41,12 +36,9 @@ import difflib
 import random
 import unicodedata
 import time
-import cPickle
 import datetime
 import math
 import nltk
-import twitter
-import requests
 import numpy as np
 import scipy
 import itertools
@@ -184,7 +176,6 @@ class EP(object):
 		self.behav["DOR"] = ["Perf", "ConfPerf", "IndError"]
 		self.behav["DOI"] = ["Agree", "Perf", "IndError"]
 		self.behav["DOR"] = ["Perf", "IndError"]
-		logging.getLogger("requests").setLevel(logging.WARNING)
 		logging.getLogger("urllib3").setLevel(logging.WARNING)
 		try:
 			opts = process_args(options)
