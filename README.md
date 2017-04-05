@@ -16,3 +16,10 @@ Instricutions:
  * Call test.py with parameters embedding file, no. training samples, no. test samples, budget NER pre, budget NER post, budget NED pre, Microposts || Spotlight for the online hedge algorithm, e.g. 
 
     python test.py GoogleNews-vectors-negative300.bin 200 200 230 2 4 Microposts
+
+	@inproceedings{philipp2017,
+	 author    = {Patrick Philipp and Achim Rettinger},
+	 title     = {Reinforcement Learning for Multi-Step Expert Advice},
+	 booktitle = {AAMAS},
+	 year      = {2017},
+	 pages     = {to appear}
