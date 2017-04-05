@@ -11,6 +11,6 @@ NERD Expert Process
 
 Instricutions:
 -------------
- * Download wvlib
+ * Download wvlib (https://github.com/spyysalo/wvlib) and trained embeddings (.bin file)
  * Create folder "stash" in main dir
- * Call ep.py with parameters embedding file (.bin), no. training samples, no. test samples, budget NER pre, budget NER post, budget NED pre, Microposts || Spotlight
+ * Call test.py with parameters embedding file, no. training samples, no. test samples, budget NER pre, budget NER post, budget NED pre, Microposts || Spotlight
