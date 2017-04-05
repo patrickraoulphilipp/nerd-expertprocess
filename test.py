@@ -1,4 +1,4 @@
-from ep_test import *
+from ep import *
 import sys
 
 def main(argv=None):
