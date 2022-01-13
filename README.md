@@ -9,7 +9,7 @@ Algorithms for expert processes for named entity recognition and disambiguation 
 	 year      = {2017},
 	 pages     = {to appear}
 
-Instricutions:
+Instructions:
 -------------
 Download wvlib (https://github.com/spyysalo/wvlib) and trained embeddings (e.g. from https://code.google.com/archive/p/word2vec/)
 
